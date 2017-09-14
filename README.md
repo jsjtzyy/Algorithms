@@ -23,7 +23,7 @@ Chinese Remainder Theory
 
 Strassen Matrix Multiplication   (Divide into sub-matrix)
 
-Tarjan Algorithm                 (Find Least Common Ancestor)
+Tarjan Algorithm                 (Off-line Least Common Ancestor algorithm)
 
 Union Find                       (number of islands)
 
