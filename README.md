@@ -1,3 +1,9 @@
+This repository is created for some useful algorithms and data structures
+
 # Algorithms
-This repository is built for some useful and common algorithms.
-Some data structures will be included as well.
+
+
+# Data Structure
+Trie
+Segment Tree
+Suffix Array / Suffix Tree
