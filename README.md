@@ -38,3 +38,4 @@ Segment Tree
 
 Suffix Array / Suffix Tree
 
+Min Stack
