@@ -9,3 +9,6 @@ LCA Problem ----> find LCA in BST (easy)
             |
             |
             ----> Tarjan Algorithm: find LCA multiple times (off-line)
+
+Tarjan Algorithm reference:
+          http://www.geeksforgeeks.org/tarjans-off-line-lowest-common-ancestors-algorithm/
