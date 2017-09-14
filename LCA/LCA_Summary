@@ -1,0 +1,11 @@
+
+LCA Problem ----> find LCA in BST (easy)
+            |
+            ----> find LCA in BT  ----> has parent pointer (easy)
+            |                     |
+            |                     ----> no parent pointer (medium)
+            |
+            ----> find LCA in non-BT (hard)
+            |
+            |
+            ----> Tarjan Algorithm: find LCA multiple times (off-line)
