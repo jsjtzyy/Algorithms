@@ -38,9 +38,9 @@ Union Find                       (number of islands)
 # Data Structure
 Trie
 
-Sparse Table         O(NlogN) preprocess  +  O(1) query      for RMQ
+Sparse Table ------ O(NlogN) preprocess  +  O(1) query      for RMQ
 
-Segment Tree         O(N)   preprocess  +  O(logN) query     for RMQ
+Segment Tree ------ O(N)   preprocess  +  O(logN) query     for RMQ
 
 Suffix Array / Suffix Tree
 
