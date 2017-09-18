@@ -11,6 +11,8 @@ Chinese Remainder Theory
 
 Dijkstra                         (Single point source, weigth >= 0)
 
+Dynamic Programming
+
 Karatsuba Algorithm              (Fast multiplication for large interger)
 
 KMP                              (String match)
