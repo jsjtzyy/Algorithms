@@ -13,6 +13,8 @@ Dijkstra                         (Single point source, weigth >= 0)
 
 Dynamic Programming
 
+Hungarian Algorithm              (matching for unweighted bipartite graph)
+
 Karatsuba Algorithm              (Fast multiplication for large interger)
 
 KMP                              (String match)
