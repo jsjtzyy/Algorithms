@@ -3,7 +3,7 @@ This repository is created for some useful algorithms and data structures
 # Algorithms
 Bloom Filter
 
-Bit Manipulation
+Bit Manipulation                 (Bit masking)
 
 Convex Hull                      (Find polygon with shortest perimeter)
 
