@@ -15,6 +15,8 @@ Dynamic Programming
 
 Hungarian Algorithm              (matching for unweighted bipartite graph)
 
+In-place Algorithm for In-Shuffle
+
 Karatsuba Algorithm              (Fast multiplication for large interger)
 
 KMP                              (String match)
