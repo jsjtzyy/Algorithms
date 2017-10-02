@@ -15,7 +15,7 @@ Dynamic Programming
 
 Hungarian Algorithm              (matching for unweighted bipartite graph)
 
-In-place Algorithm for In-Shuffle
+In-place Perfect Shuffle         (O(N) time complexity, O(1) space complexity)
 
 Karatsuba Algorithm              (Fast multiplication for large interger)
 
