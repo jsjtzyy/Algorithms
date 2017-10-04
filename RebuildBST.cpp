@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <climits>
 
 using namespace std;
 
@@ -17,11 +19,14 @@ public:
 Node* convert(vector<int> &vec, int start, int end);
 void preOrderTraverse(Node* root);
 void inOrderTraverse(Node* root);
-Node* convert2(vector<int>&vec, int parentVal);
+Node* convert2(vector<int>&vec, int rightParent);
 Node* newConvert(vector<int>&vec);
 
 int main(){
     int arr[] ={10, 7, 5, 9, 8, 15, 12};
+    //int arr[] = {14, 11, 7, 2, 1, 4, 3, 5, 6, 8, 10, 9, 12, 13, 15};
+    //int arr[] = {10, 11, 12, 13, 14};
+    //int arr[] = {14, 7, 5, 9, 8, 10, 11, 13, 12, 19, 15, 16, 18, 17, 20};
     int len = sizeof(arr) / sizeof(int);
     vector<int> vec1(&arr[0], &arr[len]);
     Node* res1 = convert(vec1, 0, len - 1);  // O(N^2)
@@ -60,25 +65,26 @@ Node* newConvert(vector<int>& vec){
     int rootVal = vec[0];
     Node* root = new Node(rootVal);
     vec.erase(vec.begin());
+    int curMax = rootVal;
     if(rootVal > vec[0]){
         root -> left = convert2(vec, rootVal);   // call convert2 method
     }
     if(rootVal < vec[0]){
-        root -> right = convert2(vec, rootVal);  // call convert2 method
+        root -> right = convert2(vec, INT_MAX);  // call convert2 method, use INT_MAX there is no right parent
     }
     return root;
 }
 
-Node* convert2(vector<int> &vec, int parentVal){  // O(N)
+Node* convert2(vector<int> &vec, int rightParent){  // O(N)
     if(vec.size() == 0) return NULL;
     int rootVal = vec[0];
     Node* root = new Node(rootVal);
     vec.erase(vec.begin());                       // erase the first element
-    if(rootVal > vec[0]){
+    if(vec[0] < rootVal){
         root -> left = convert2(vec, rootVal);
     }
-    if(vec[0] < parentVal && rootVal < vec[0]){   // compare with parent value
-        root -> right = convert2(vec, rootVal);
+    if(rootVal < vec[0] && vec[0] < rightParent){   // compare with right parent value  
+        root -> right = convert2(vec, rightParent);
     }
     return root;
 }
