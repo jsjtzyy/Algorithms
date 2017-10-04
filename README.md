@@ -27,6 +27,8 @@ Moore's Voting / Iceberg Query   (n-1 elements appear more than 1/n)
 
 Minimum Spanning Tree            (Kruskal, Prim)
 
+MinMax                           (Game Strategy/ Simulation / Ad Hoc)
+
 QuickSort                        (Partition)
 
 RadixSort                        (Counting Sort)
