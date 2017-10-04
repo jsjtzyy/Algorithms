@@ -29,6 +29,8 @@ Minimum Spanning Tree            (Kruskal, Prim)
 
 MinMax                           (Game Strategy/ Simulation / Ad Hoc)
 
+Two Pointers / Three Pointers    (circle in linkedlist, RGB problem)
+
 QuickSort                        (Partition)
 
 RadixSort                        (Counting Sort)
