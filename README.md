@@ -55,3 +55,9 @@ Segment Tree ------ O(N)   preprocess  +  O(logN) query     for RMQ
 Suffix Array / Suffix Tree
 
 Min Stack
+
+
+
+# Trick
+
+Rotate Right Shift = Three times reverse
