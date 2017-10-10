@@ -5,7 +5,7 @@ Bloom Filter
 
 Bit Manipulation                 (Bit masking)
 
-BKDR Hash Function               (Most popular hash function for string)
+BKDR Hash Function               (Most popular 32-bit hash function for string)
 
 Convex Hull                      (Find polygon with shortest perimeter)
 
