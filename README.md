@@ -66,6 +66,6 @@ Rotate Right Shift = Three times reverse
 
 Tree PreOrder, InOrder, PostOrder non-recursive traverse
 
-File system is equivalent to multi-way tree (how to judge two file system has same topology?  see "Backup Integrity" problem, in Online Judge Hackrank)
+File system is equivalent to multi-way tree (how to judge two file system have same topology?  see "Backup Integrity" problem, in Online Judge Hackrank)
 
 
