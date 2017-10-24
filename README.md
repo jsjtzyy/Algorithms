@@ -54,6 +54,8 @@ Sparse Table ------ O(NlogN) preprocess  +  O(1) query      for RMQ
 
 Segment Tree ------ O(N)   preprocess  +  O(logN) query     for RMQ
 
+Binary Index Tree ------ O(NlogN) preprocess + O(logN) query + O(n) space for RMQ
+
 Suffix Array / Suffix Tree
 
 Min Stack
