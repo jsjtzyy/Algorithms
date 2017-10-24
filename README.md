@@ -54,6 +54,8 @@ Sparse Table ------ O(NlogN) preprocess  +  O(1) query      for RMQ
 
 Segment Tree ------ O(N)   preprocess  +  O(logN) query     for RMQ
 
+Binary Index Tree ------ O(NlogN) preprocess + O(logN) query + O(n) space for RMQ
+
 Suffix Array / Suffix Tree
 
 Min Stack
@@ -63,3 +65,9 @@ Min Stack
 # Trick
 
 Rotate Right Shift = Three times reverse
+
+Tree PreOrder, InOrder, PostOrder non-recursive traverse
+
+File system is equivalent to multi-way tree (how to judge two file system have same topology?  see "Backup Integrity" problem, in Online Judge Hackrank)
+
+
