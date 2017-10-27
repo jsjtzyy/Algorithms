@@ -39,6 +39,8 @@ RadixSort                        (Counting Sort)
 
 Reservoir Sampling               (Same probability) 
 
+Sieve of Eratosthenes            (find all primes <= N)
+
 Strassen Matrix Multiplication   (Divide into sub-matrix)
 
 Tarjan Algorithm                 (Off-line Least Common Ancestor algorithm)
