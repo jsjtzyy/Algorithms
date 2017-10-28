@@ -13,7 +13,7 @@ Chinese Remainder Theory
 
 Dijkstra                         (Single point source, weigth >= 0)
 
-Dynamic Programming
+Dynamic Programming              (also applied in probability & expectation)
 
 Hungarian Algorithm              (matching for unweighted bipartite graph)
 
@@ -71,5 +71,7 @@ Rotate Right Shift = Three times reverse
 Tree PreOrder, InOrder, PostOrder non-recursive traverse
 
 File system is equivalent to multi-way tree (how to judge two file system have same topology?  see "Backup Integrity" problem, in Online Judge Hackrank)
+
+Expectation and Probability
 
 
