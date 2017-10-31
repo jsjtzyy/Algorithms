@@ -76,4 +76,4 @@ File system is equivalent to multi-way tree (how to judge two file system have s
 
 Expectation and Probability
 
-
+Median is related to minHeap and maxHeap with similar size. (maxHeap stores first half elements, minHeap stores second half)
