@@ -1,4 +1,4 @@
-n & (n - 1)     used to set rightmost "1" digit to "0" / used to check if n is power of 2; unset rightest bit of 1
+n & (n - 1)     used to set rightmost "1" digit to "0" (将最右的1置0)/ used to check if n is power of 2; unset rightest bit of 1
 
 n & (-n)        used to keep the rightmost "1" digit(保留最后的一个 1);  separate rightest bit of 1
 
@@ -7,3 +7,8 @@ n + n & (-n)    将最右的1 向左移动1位;
 n & (~ (1 << i))  将第i位清零;
 
 n | (1 << i)     将第i位置1;
+
+易犯错误：
+
+ n & (1 << i) 与 1 比较，事实上应为 if(n & (1 << i) > 0) 来判断第i位是否为1
+ 
