@@ -31,6 +31,8 @@ Minimum Spanning Tree            (Kruskal, Prim)
 
 MinMax                           (Game Strategy/ Simulation / Ad Hoc)
 
+MaxFlow            
+
 Two Pointers / Three Pointers    (circle in linkedlist, RGB problem)
 
 QuickSort                        (Partition)
@@ -77,3 +79,5 @@ File system is equivalent to multi-way tree (how to judge two file system have s
 Expectation and Probability
 
 Median is related to minHeap and maxHeap with similar size. (maxHeap stores first half elements, minHeap stores second half)
+
+Computing components can be solved in reverse order by union-find (see ACIM Tryout #1 Problem G Artwork)
