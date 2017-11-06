@@ -49,6 +49,8 @@ Sqrt Decomposition               (Bucket Method)
 
 Tarjan Algorithm                 (Off-line Least Common Ancestor algorithm)
 
+Topological Sort                 (See Leetcode topic)
+
 Union Find                       (number of islands)
 
 
