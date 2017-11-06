@@ -47,6 +47,8 @@ Strassen Matrix Multiplication   (Divide into sub-matrix)
 
 Sqrt Decomposition               (Bucket Method)
 
+Sweep Line Algorithm             (Computational Geometry)
+
 Tarjan Algorithm                 (Off-line Least Common Ancestor algorithm)
 
 Topological Sort                 (See Leetcode topic)
