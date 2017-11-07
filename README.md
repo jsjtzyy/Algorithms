@@ -85,3 +85,5 @@ Expectation and Probability
 Median is related to minHeap and maxHeap with similar size. (maxHeap stores first half elements, minHeap stores second half)
 
 Computing components can be solved in reverse order by union-find (see ACIM Tryout #1 Problem G Artwork)
+
+use "mid = low + (high - low) / 2;" instead of "mid = (low + high) / 2" to avoid exceeding int range
