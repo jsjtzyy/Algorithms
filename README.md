@@ -19,6 +19,8 @@ Hungarian Algorithm              (matching for unweighted bipartite graph)
 
 In-place Perfect Shuffle         (O(N) time complexity, O(1) space complexity)
 
+Kadane Algorithm                 (find max sum subarray; 2D case see "Maximum Sum Rectangular Submatrix in Matrix" in youtube)
+
 Karatsuba Algorithm              (Fast multiplication for large interger)
 
 KMP                              (String match)
