@@ -76,16 +76,16 @@ Min Stack
 
 # Trick
 
-Rotate Right Shift = Three times reverse
+(1)Rotate Right Shift = Three times reverse
 
-Tree PreOrder, InOrder, PostOrder non-recursive traverse
+(2)Tree PreOrder, InOrder, PostOrder non-recursive traverse
 
-File system is equivalent to multi-way tree (how to judge two file system have same topology?  see "Backup Integrity" problem, in Online Judge Hackrank)
+(3)File system is equivalent to multi-way tree (how to judge two file system have same topology?  see "Backup Integrity" problem, in Online Judge Hackrank)
 
-Expectation and Probability
+(4)Expectation and Probability   (see SPOJ and UVa related problems)
 
-Median is related to minHeap and maxHeap with similar size. (maxHeap stores first half elements, minHeap stores second half)
+(5)Median is related to minHeap and maxHeap with similar size. (maxHeap stores first half elements, minHeap stores second half)
 
-Computing components can be solved in reverse order by union-find (see ACIM Tryout #1 Problem G Artwork)
+(6)Computing components can be solved in reverse order by union-find (see ACIM Tryout #1 Problem G Artwork)
 
-use "mid = low + (high - low) / 2;" instead of "mid = (low + high) / 2" to avoid exceeding int range
+(7)use "mid = low + (high - low) / 2;" instead of "mid = (low + high) / 2" to avoid exceeding int range
