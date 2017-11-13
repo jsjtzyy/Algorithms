@@ -89,3 +89,6 @@ Min Stack
 (6)Computing components can be solved in reverse order by union-find (see ACIM Tryout #1 Problem G Artwork)
 
 (7)use "mid = low + (high - low) / 2;" instead of "mid = (low + high) / 2" to avoid exceeding int range
+
+(8) Morris traversal
+
