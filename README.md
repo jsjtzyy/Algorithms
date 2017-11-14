@@ -35,6 +35,8 @@ MinMax                           (Game Strategy/ Simulation / Ad Hoc)
 
 MaxFlow            
 
+Morris traversal                 (O(N) time complexity and O(1) space complexity)
+
 Two Pointers / Three Pointers    (circle in linkedlist, RGB problem)
 
 QuickSort                        (Partition)
@@ -90,5 +92,5 @@ Min Stack
 
 (7)use "mid = low + (high - low) / 2;" instead of "mid = (low + high) / 2" to avoid exceeding int range
 
-(8) Morris traversal
+(8) 
 
