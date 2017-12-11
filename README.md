@@ -11,6 +11,8 @@ Convex Hull                      (Find polygon with shortest perimeter)
 
 Chinese Remainder Theory
 
+Count-Min Sketch                 (Frequency Estimation approximate algorithm in data stream)
+
 Dijkstra                         (Single point source, weigth >= 0)
 
 Dynamic Programming              (also applied in probability & expectation)
@@ -24,6 +26,8 @@ Kadane Algorithm                 (find max sum subarray; 2D case see "Maximum Su
 Karatsuba Algorithm              (Fast multiplication for large interger)
 
 KMP                              (String match)
+
+Lossy Count                      (Approximate algorithm for Top K frequency estimation in data stream)
 
 Manacher                         (Find longest palindrome sub-string)
 
