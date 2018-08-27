@@ -29,6 +29,8 @@ Karatsuba Algorithm              (Fast multiplication for large interger)
 
 KMP                              (String match)
 
+Kuhn-Munkres Algorithm           (like Hungarian Algorithm, 二分图最大权值匹配)
+
 Lossy Count                      (Approximate algorithm for Top K frequency estimation in data stream)
 
 Manacher                         (Find longest palindrome sub-string)
