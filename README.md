@@ -3,7 +3,7 @@ This repository is created for some useful algorithms and data structures
 # Algorithms
 Array of Count-Min Sketches      (Estimate total number of occurrence within specific range in the data stream)
 
-Bloom Filter
+Bloom Filter vs Quotient Filter vs Cuckoo Filter
 
 Bit Manipulation                 (Bit masking)
 
