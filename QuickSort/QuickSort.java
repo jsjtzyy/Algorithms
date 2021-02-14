@@ -6,6 +6,11 @@ public class QuickSort{
         quickSort(nums, pos + 1, end);
     }
 
+    /**
+    *  maintain two pointers: 
+    *      pos points to cur element that <= pivot 
+    *.     i  is ahead of pos and tries to find next element <= pivot and swap to nums[pos + 1]
+    */
     public int partition(int[] nums, int start, int end){
         int pivot = nums[end];
         int pos = start - 1, tmp = 0;
