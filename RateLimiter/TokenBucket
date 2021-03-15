@@ -1,0 +1,27 @@
+class TokenBucket {
+  int capacity;
+  int currentTokenNum;
+  long lastRefillTime;
+  long refillRate; //request per second 
+  
+  public TokenBucket(int cap, long refillRate){
+      this.capacity = cap;
+      this.refillRate = refillRate;
+      lastRefillTime = System.currentTimeMillis();
+  }
+  
+  public sychronized boolean allowRequest(int tokenCnt) { // tokenCnt is the num of token needed to perform this request, usually it's 1
+      refillIfNeeded();
+      if(currentTokenNum >= tokenCnt){
+        currentTokenNum -= tokenCnt;
+        return true;
+      }
+      return false;
+  }
+
+  private void refillIfNeeded() {
+    long curTime = System.currentTimeMillis();
+    currentTokenNum = Math.min(capacity, currentTokenNum + (curTime - lastRefillTime) / 1000 * refillRate);
+    lastRefillTime = curTime;
+  }
+}
