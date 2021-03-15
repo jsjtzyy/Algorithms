@@ -7,6 +7,7 @@ class TokenBucket {
   public TokenBucket(int cap, long refillRate){
       this.capacity = cap;
       this.refillRate = refillRate;
+      currentTokenNum = capacity;
       lastRefillTime = System.currentTimeMillis();
   }
   
