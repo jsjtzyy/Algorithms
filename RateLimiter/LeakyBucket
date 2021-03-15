@@ -1,0 +1,28 @@
+class LeakyBucket {
+  int capacity;
+  int curUsage;
+  long lastLeakTime;
+  int leakRate;  // how many drops per second
+ 
+  public LeakyBucket(int cap, int leakRate) {
+    this.capacity = cap;
+    this.leakRate = leakRate;
+    curUsage = 0;
+    lastLeakTime = System.currentTimeMillis();
+  }
+  
+  public synchronized boolean addDrops(int drops) {
+    leak();
+    if(curUsage >= drops){
+      curUsage -= drops;
+      return true;
+    } 
+    return false;
+  }
+  
+  private void leak() {
+    long curTime = System.currentTimeMillis();
+    curUsage = Math.max(0, curUsage - (curTime - lastLeakTime) / 1000 * leakRate);
+    lastLeakTime = curTime;
+  }
+}
