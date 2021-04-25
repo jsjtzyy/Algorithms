@@ -1,2 +1,16 @@
 An algorithm to help efficiently count events (views, clicks) with much less memory(storage space)
+This is an approximation algorithm
+
+More details, please refer to https://juejin.cn/post/6844903785744056333
+Scenario: how many distinct users have viewed a video?
+
+Approach:  
+ 1. assign userId to each user:  64 bit long use id.
+ 2. 64 = 14 + 50
+ 3. creates 2^14 buckets, each bucket has 6 bit (can represent 0 ~ 2^6-1 = 63)
+ 4. The first 14 bits to determine which bucket to place
+ 5. For 50 bits, start from end to beginning and count how many 0s have been seen until meet the first 1
+ 6. Use # of 0s from step 5 and current value in bucket, select bigger one and update of necessary.
+ 7. If it's distributed system, merge 2^14 buckets from each server (picking the largest value from same bucket)
+ 8. compute avg of all buckets, the number of users is: ~2^avg
 
