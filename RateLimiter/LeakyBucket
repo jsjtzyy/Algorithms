@@ -13,8 +13,8 @@ class LeakyBucket {
   
   public synchronized boolean addDrops(int drops) {
     leak();
-    if(curUsage >= drops){
-      curUsage -= drops;
+    if(curUsage + drops <= capacity){
+      curUsage += drops;
       return true;
     } 
     return false;
