@@ -1,0 +1,8 @@
+Given 3 points A(x1, y1), B(x2, y2), C(x3, y3) 
+                  |x1, y1, 1|
+S(ABC) = 0.5 * abs(|x2, y2, 1|) = 0.5 * abs(x1*y2 + x3*y1 + x2*y3 - x3*y2 - x1*y3 - x2*y1)
+                  |x3, y3, 1|
+                  
+How to determine if a point P is within triangle ?
+
+S(PAB) > 0 && S(PAC) > 0 && S(PBC) > 0 && S(PAB) + S(PAC) + S(PBC) == S(ABC)
