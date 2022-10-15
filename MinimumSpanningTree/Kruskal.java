@@ -1,5 +1,7 @@
 import java.util.*;
 
+// 时间复杂度 O(ElogE) + O(V + E) alpha（v）(具体见算法导论查并集).  最终复杂度是去大的一项，也就是 O(ElogE) 
+
 public class Kruskal{
     private class Edge implements Comparable<Edge>
     {
