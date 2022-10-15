@@ -1,6 +1,6 @@
 import java.util.*;
 
-// 时间复杂度 O(V^2) 适合稠密图
+// 时间复杂度 O(V^2) 适合稠密图, 利用heap可降为 O(VlogV)
 public class Prim {
     class Edge implements Comparable<Edge>{
         int start;
