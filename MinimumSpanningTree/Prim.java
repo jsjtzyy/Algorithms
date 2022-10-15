@@ -1,4 +1,6 @@
 import java.util.*;
+
+// 时间复杂度 O(V^2) 适合稠密图
 public class Prim {
     class Edge implements Comparable<Edge>{
         int start;
